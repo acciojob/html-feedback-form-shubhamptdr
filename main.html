@@ -10,7 +10,35 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form>
+      <label for="name"> Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        minlength="3"
+        maxlength="50"
+        required
+      />
 
+      <label for="portfolio"> Url</label>
+      <input type="url" id="portfolio" name="portfolio" required />
+
+      <button type="submit">submit button</button>
+
+      <label for="favColor"> favColor</label>
+      <input type="color" id="favColor" name="favColor" required />
+
+      <label for="likeness"> DOB</label>
+      <input
+        type="range"
+        id="likeness"
+        name="likeness"
+        min="1"
+        max="100"
+        value="50"
+      />
+    </form>
 </body>
 
 </html>
